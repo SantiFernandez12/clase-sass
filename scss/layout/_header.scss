@@ -1,0 +1,13 @@
+header{
+    background-color: aqua;
+    @include flex(row, center, flex-end);
+    div{
+        background-color: $back-principal;
+        width: 25%;
+        h1{
+            color: black;
+            font-size: 40px;
+            font-family: $tipografia-principal;
+        }
+    }
+}
